@@ -19,13 +19,13 @@
     "watchify": "~3.7.0"
   },
   "scripts": {
-    "start": "watchify -o js/bundle.js -v -d .",
+    "start": "react-scripts start",
     "build": "browserify . | uglifyjs -cm > js/bundle.min.js",
     "test": "jest"
   },
-  "author": "Ken Wheeler",
+  "author": "Sunil",
   "contributors": [
-    "vichu1988"
+    "Soni"
   ],
   "browserify": {
     "transform": [
